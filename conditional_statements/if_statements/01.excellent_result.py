@@ -1,4 +1,4 @@
-num = float(input())
+number = float(input())
 
-if num >= 5.50:
+if number >= 5.50:
     print("Excellent!")
