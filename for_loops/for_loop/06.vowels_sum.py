@@ -1,15 +1,15 @@
 txt = input()
-khotun = 0
+counter = 0
 for letter in txt:
     if letter == "a":
-        khotun += 1
+        counter += 1
     elif letter == "e":
-        khotun += 2
+        counter += 2
     elif letter == "i":
-        khotun += 3
+        counter += 3
     elif letter == "o":
-        khotun += 4
+        counter += 4
     elif letter == "u":
-        khotun += 5
+        counter += 5
 
-print(khotun)
+print(counter)
